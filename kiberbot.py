@@ -153,56 +153,56 @@ class StudentsScene(BaseScene):
 
 
 class PaymentScene(BaseScene):
-    SCENE_INDEX = 2
+    SCENE_INDEX = ButtonLabel.BUTTON_PAYMENT
 
     def __init__(self):
         super().__init__()
 
 
 class TutorScene(BaseScene):
-    SCENE_INDEX = 3
+    SCENE_INDEX = ButtonLabel.BUTTON_TUTOR
 
     def __init__(self):
         super().__init__()
 
 
 class SocialMediaScene(BaseScene):
-    SCENE_INDEX = 4
+    SCENE_INDEX = ButtonLabel.BUTTON_SOCIAL_MEDIA
 
     def __init__(self):
         super().__init__()
 
 
 class InterestingFactScene(BaseScene):
-    SCENE_INDEX = 5
+    SCENE_INDEX = ButtonLabel.BUTTON_INTERESTING_FACT
 
     def __init__(self):
         super().__init__()
 
 
 class ScheduleScene(BaseScene):
-    SCENE_INDEX = 6
+    SCENE_INDEX = ButtonLabel.BUTTON_SCHEDULE
 
     def __init__(self):
         super().__init__()
 
 
 class ProjectsEventsScene(BaseScene):
-    SCENE_INDEX = 7
+    SCENE_INDEX = ButtonLabel.BUTTON_PROJECTS_EVENTS
 
     def __init__(self):
         super().__init__()
 
 
 class UsefulSourcesScene(BaseScene):
-    SCENE_INDEX = 8
+    SCENE_INDEX = ButtonLabel.BUTTON_USEFUL_SOURCES
 
     def __init__(self):
         super().__init__()
 
 
 class ProfessionNavigationScene(BaseScene):
-    SCENE_INDEX = 9
+    SCENE_INDEX = ButtonLabel.BUTTON_PROFESSION_NAVIGATION
 
     def __init__(self):
         super().__init__()
